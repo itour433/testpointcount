@@ -22,6 +22,6 @@ public class SplashActivity extends AppCompatActivity {
                 Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
             }
-        }, 2000); // 遅らせたい時間(ミリ秒) 2000ミリ秒 -> 2秒
+        }, 1000); // 遅らせたい時間(ミリ秒) 2000ミリ秒 -> 2秒
     }
 }
