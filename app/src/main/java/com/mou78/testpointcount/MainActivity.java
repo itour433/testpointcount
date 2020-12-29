@@ -422,4 +422,8 @@ public class MainActivity extends AppCompatActivity {
 
         numberselect = 0;
     }
+    public void testtap(View v) {
+        Intent intent = new Intent(this, SplashActivity.class);
+        startActivity(intent);
+    }
 }

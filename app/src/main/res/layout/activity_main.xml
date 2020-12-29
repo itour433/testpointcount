@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="testtap"
     tools:context=".MainActivity">
 
     <TextView
@@ -25,8 +26,8 @@
         android:layout_height="72dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
-        android:onClick="five"
         android:backgroundTint="#2E2C2D"
+        android:onClick="five"
         android:text="5点"
         android:textColor="#FDFDFD"
         app:layout_constraintBottom_toBottomOf="parent"
