@@ -68,7 +68,7 @@ public class Savelist3Activity extends AppCompatActivity {
         //SharedPreferenceのintの数字を呼び出し
         int testpoint0 = pref.getInt("number22",0);
         //SharedPreferenceのStringの文字を呼び出し
-        String titlename0 = pref.getString("name","データー未登録");
+        String titlename0 = pref.getString("name22","データー未登録");
 
         //TextViewに代入
         pointtext.setText(testpoint0 +"");
@@ -228,8 +228,7 @@ public class Savelist3Activity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(),"これ以上ページがありません",Toast.LENGTH_SHORT).show();
     }
     public void back(View v){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        finish();
     }
         public void backhome(View v){
         Intent intent = new Intent(this, MainActivity.class);

@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     TextView textView;
-    TextView textuum;
     int testpoint;
     int numberselect;
     SharedPreferences pref;
